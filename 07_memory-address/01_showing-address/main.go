@@ -3,10 +3,8 @@ package main
 import "fmt"
 
 func main() {
-
-	a := 43
-
-	fmt.Println("a - ", a)
-	fmt.Println("a's memory address - ", &a)
-	fmt.Printf("%d \n", &a)
+	// exercicio declarar uma variavel e mostrar o endereco de memoria dela
+	idade := 28
+	fmt.Println("Idade: ", idade)
+	fmt.Println("Endereço de memoria da Idade: ", &idade)
 }
